@@ -16,10 +16,10 @@ import java.util.Scanner;
  * @author Admin
  */
 public class Punto {
-    private int x1;
-    private int y1;
-    private int x2;
-    private int y2;
+    public int x1;
+    public int y1;
+    public int x2;
+    public int y2;
 
     public Punto() {
     }
@@ -43,7 +43,8 @@ public class Punto {
         
     }
     public double calcularDistancia(){
-     return  Math.sqrt((Math.pow(y2 - y1, 2)) + Math.pow(x2 - x1, 2)
+     return  Math.sqrt((Math.pow(y2 - y1, 2)) + Math.pow(x2 - x1, 2));
+
        
         
     }

@@ -1,3 +1,5 @@
+package ejercicios.guia.poo;
+
 
 import Entidad.Cancion;
 import java.util.Scanner;
